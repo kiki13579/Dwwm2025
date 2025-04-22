@@ -1,9 +1,27 @@
-header {
+/* .section {
     display: grid;
-    grid-template-columns: 3, 1fr;
-    grid-template-areas: "header header header"
-                         "nav nav nav";
-    background-color: #585858;
-    padding: 20px;
-    margin-bottom: 20px;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+    background-color: azure;
 }
+.nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: lightgoldenrodyellow;
+    grid-auto-rows: minmax(auto);
+
+} */
+.section {
+    display: grid;
+    grid-template-areas: 
+        "header header header";
+    background-color: lightcyan;
+    grid-auto-rows: minmax(auto);
+ }
+ .nav {
+    display: grid;
+    grid-template-areas: 
+        "div div div div div";
+    background-color: lightgoldenrodyellow;
+    grid-auto-rows: minmax(auto);
+ }
