@@ -1,0 +1,9 @@
+header {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-areas: "header header header"
+                         "nav nav nav";
+    background-color: #585858;
+    padding: 20px;
+    margin-bottom: 20px;
+}
